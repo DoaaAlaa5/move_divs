@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+#red { background-color: red; }
+#green { background-color: green; }
+#blue { background-color: blue; }
+
+.hidden {
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
